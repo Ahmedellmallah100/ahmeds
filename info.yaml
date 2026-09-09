@@ -50,3 +50,4 @@ pinout:
   uio[7]: "Unused"
 
 # Do not change!
+yaml_version: 6
