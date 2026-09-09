@@ -8,13 +8,8 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
 a
-
 ## How to test
-
 using ddsd eerg
-
 ## External hardware
-
 ggggrrgrgrgr
