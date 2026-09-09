@@ -3,27 +3,27 @@ project:
   title:        "4-Input Perceptron"
   author:       "Ahmed Hamed"
   discord:      ""
-  description:  "A hardware implementation of a 4-input perceptron neural network."
+  description:  "A compact hardware implementation of a 4-input perceptron neural network."
   language:     "Verilog"
   clock_hz:     0
 
-  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  # Single Tiny Tapeout tile
   tiles: "1x1"
 
-  # Your top module name must start with "tt_um_".
+  # Top-level module
   top_module:  "tt_um_example"
 
-  # List your project's source files here.
+  # Source files
   source_files:
     - "project.v"
 
 # The pinout of your project.
 pinout:
   # Inputs
-  ui[0]: "x1"
-  ui[1]: "x2"
-  ui[2]: "x3"
-  ui[3]: "x4"
+  ui[0]: "Input x1"
+  ui[1]: "Input x2"
+  ui[2]: "Input x3"
+  ui[3]: "Input x4"
   ui[4]: "Unused"
   ui[5]: "Unused"
   ui[6]: "Unused"
