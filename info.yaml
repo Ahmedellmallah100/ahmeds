@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "4-Input Perceptron"
+  title:        "Tiny Trainable Perceptron"
   author:       "Ahmed Hamed"
   discord:      ""
-  description:  "A compact hardware implementation of a 4-input perceptron neural network."
+  description:  "A small trainable 4-input perceptron with on-chip weight updates using the perceptron learning rule."
   language:     "Verilog"
   clock_hz:     0
 
@@ -24,9 +24,9 @@ pinout:
   ui[1]: "Input x2"
   ui[2]: "Input x3"
   ui[3]: "Input x4"
-  ui[4]: "Unused"
-  ui[5]: "Unused"
-  ui[6]: "Unused"
+  ui[4]: "Target"
+  ui[5]: "Train Enable"
+  ui[6]: "Echo Enable"
   ui[7]: "Unused"
 
   # Outputs
