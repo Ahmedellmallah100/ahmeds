@@ -15,7 +15,7 @@ project:
 
   # Source files
   source_files:
-    - "tt_um_nn_accelerator.v"
+    - "tiny_tapoyt.v"
     - "Leyars.v"
     - "Multi_Neuron.v"
     - "Single_Neuron.v"
