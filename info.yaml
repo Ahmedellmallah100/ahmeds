@@ -15,7 +15,7 @@ project:
 
   # Source files
   source_files:
-    - "tiny_tapoyt.v"
+    - "tiny_tapout.v"
     - "Leyars.v"
     - "Multi_Neuron.v"
     - "Single_Neuron.v"
